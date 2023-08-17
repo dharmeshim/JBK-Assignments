@@ -6,8 +6,14 @@ class Transaction {
     public Transaction(boolean isTransactionDone) {
         this.isTransactionDone = isTransactionDone;
     }
+    
+    public boolean transactionStatus() {
+    	return isTransactionDone;
+    }
 
+    
     public boolean makeTransaction() {
+    	
     	isTransactionDone=true;
         return isTransactionDone;
     }
