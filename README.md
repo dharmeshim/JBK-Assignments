@@ -31,4 +31,16 @@
   * shapes - Polymorphism by creating a set of Shapes
   * studentinformationsystem - constructors by modeling studetn information system
   * vehicles - implementing interfaces in java for Vehicles
+
+* String Objects
+ 
+* Collections
+  * Employee System
+  * Bank Application
+  * Hospital Management System
+  * School management
+  * Project management
+
+
+
  
