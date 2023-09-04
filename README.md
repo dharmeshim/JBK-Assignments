@@ -46,6 +46,8 @@
   
 * Exception Task Assignment 2 - HotelManagementSystem - Custom Exception Handling in Hotel Management System for Employee Categories with Collections and Polymorphism
 
+* JdbcAssignment - JDBC CRUD operations
+
 
 
  
