@@ -40,8 +40,11 @@
   * Hospital Management System
   * School management
   * Project management
-    
-* HotelManagementSystem - Custom Exception Handling in Hotel Management System for Employee Categories with Collections and Polymorphism
+
+
+* Exception Task Assignment 1 - HotelManagement -Custom Exception Handling in Hotel Management System with Collections and Polymorphism
+  
+* Exception Task Assignment 2 - HotelManagementSystem - Custom Exception Handling in Hotel Management System for Employee Categories with Collections and Polymorphism
 
 
 
