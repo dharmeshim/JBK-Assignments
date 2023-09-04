@@ -40,6 +40,8 @@
   * Hospital Management System
   * School management
   * Project management
+    
+* HotelManagementSystem - Custom Exception Handling in Hotel Management System for Employee Categories with Collections and Polymorphism
 
 
 
