@@ -32,6 +32,7 @@ public class EmployeeManagement {
         }
     }
 
+
     public void fireEmployee(String department, String employeeID) {
         List<Employee> employees = employeesByDepartment.get(department);
         if (employees != null) {

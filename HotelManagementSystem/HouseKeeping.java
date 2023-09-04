@@ -11,7 +11,6 @@ public class HouseKeeping extends Employee {
         super.employeeDetail();
         System.out.println("Working in House Keeping section");
     }
-
     public void cleanRoom() {
         System.out.println("HouseKeeping " + getEmployeeName() + " is cleaning");
     }

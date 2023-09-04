@@ -44,6 +44,7 @@ public class HotelManagementSystem {
                 } else if (choice == 4) {
                     System.out.println("List of All Employees:");
                     employeeManagement.listAllEmployees();
+
                 } else if (choice == 5) {
                     System.out.println("Exiting...");
                     scanner.close();

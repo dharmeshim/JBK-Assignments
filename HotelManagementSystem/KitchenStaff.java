@@ -5,7 +5,6 @@ public class KitchenStaff extends Employee {
     KitchenStaff(String employeeID, String employeeName) {
         super(employeeID, employeeName);
     }
-
     @Override
     public void employeeDetail() {
         super.employeeDetail();

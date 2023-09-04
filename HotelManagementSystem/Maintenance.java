@@ -1,7 +1,6 @@
 package exceptionHandling.hotelManagementSystem;
 
 public class Maintenance extends Employee {
-
     Maintenance(String employeeID, String employeeName) {
         super(employeeID, employeeName);
     }
