@@ -48,6 +48,7 @@
 
 * JdbcAssignment - JDBC CRUD operations
 
+* Hibernate - CRUD Operations
 
 
  
