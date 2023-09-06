@@ -17,6 +17,6 @@
         <!-- Drop and re-create the database schema on startup -->
 <!--        <property name="hbm2ddl.auto">create-drop</property>-->
         <!-- name of annotated entity class -->
-        <mapping class="hibernate.crud.Logdetails"/>
+        <mapping class="Logdetails"/>
     </session-factory>
 </hibernate-configuration>
