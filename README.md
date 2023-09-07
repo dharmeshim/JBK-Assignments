@@ -50,5 +50,7 @@
 
 * Hibernate - CRUD Operations
 
+* HibernateOperation - Projection and Restriction methods
+
 
  
