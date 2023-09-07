@@ -50,11 +50,11 @@
 
 * Hibernate - CRUD Operations
 
+* HibernateOperation - Projection and Restriction methods
+
 * Hibernate task
   * library system
   * Employee system
-
-* HibernateOperation - Projection and Restriction methods
 
 
  
