@@ -7,6 +7,7 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 
@@ -162,12 +163,14 @@ public class Functions {
 		Transaction tr = session.beginTransaction();
 
 		Criteria criteria = session.createCriteria(Employee.class);
-		criteria.setProjection(Projections.property("salary"));
+		criteria.addOrder(Order.desc("salary"));
 
 		List<Employee> list = criteria.list();
 		for (Employee employee : list) {
 			System.out.println(employee);
 		}
+		
+	
 
 		tr.commit();
 		session.close();
