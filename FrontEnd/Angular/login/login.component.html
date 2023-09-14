@@ -1,0 +1,15 @@
+
+<hr>
+<p>login works!</p>
+
+<form>
+    <label for="USername">NAME :
+        <input #name name="USername" type="tel"><br>
+    </label>
+    <label for="Password">Password: 
+        <input #password name="Password" type="password">
+    </label><br>
+
+    <button value="login" (click)="onClicklog(name.value,password.value)">Login</button>
+
+</form>
