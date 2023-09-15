@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClickEventComponent implements OnInit {
 
-  handleClick(data:string){
+  onClick(data:string){
     console.log(data);
   }
  

@@ -10,6 +10,12 @@ import { PropertybindingComponent } from './propertybinding/propertybinding.comp
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { ClassbindingButtonComponent } from './classbinding-button/classbinding-button.component';
 import { ClickEventComponent } from './click-event/click-event.component';
+import { LoginComponent } from './login/login.component';
+import { PrimecheckComponent } from './primecheck/primecheck.component';
+import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { FormsModule } from '@angular/forms';
+import { FordirectiveComponent } from './fordirective/fordirective.component';
+import { SwicthdirectiveComponent } from './swicthdirective/swicthdirective.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +26,17 @@ import { ClickEventComponent } from './click-event/click-event.component';
     PropertybindingComponent,
     ClassBindingComponent,
     ClassbindingButtonComponent,
-    ClickEventComponent
+    ClickEventComponent,
+    LoginComponent,
+    PrimecheckComponent,
+    TwowaybindingComponent,
+    FordirectiveComponent,
+    SwicthdirectiveComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule        // for ngModel
   ],
   providers: [],
   bootstrap: [AppComponent]
